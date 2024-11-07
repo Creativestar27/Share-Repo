@@ -1,0 +1,105 @@
+<section class="popular-services">
+      <h2 style="margin-bottom: 5%">POPULAR SERVICES</h2>
+      <div class="service-cards">
+        <div class="service-card">
+          <img
+            alt="3D Artist"
+            height="300"
+            src="images/engagement.jfif"
+            width="300"
+          />
+          <h3>Engagement</h3>
+          <p>Game Design</p>
+          <p>Environment Artist</p>
+          <p>AI Artist</p>
+          <p>Archie Artist</p>
+        </div>
+        <div class="service-card">
+          <img
+            alt="Video Explainer"
+            height="300"
+            src="images/wedding.jfif"
+            width="300"
+          />
+          <h3>Wedding</h3>
+          <p>Animated Explainer</p>
+          <p>AI explainer</p>
+          <p>Live-action explainer</p>
+        </div>
+        <div class="service-card">
+          <img
+            alt="Graphic Design"
+            height="300"
+            src="images/newborn.jfif"
+            width="300"
+          />
+          <h3>Newborn & Pet photography.</h3>
+          <p>Illustration</p>
+          <p>Motion graphic design</p>
+          <p>User interface design</p>
+          <p>Print design</p>
+          <p>Logo Design</p>
+        </div>
+        <div class="service-card">
+          <img
+            alt="Digital Marketing"
+            height="300"
+            src="images/Meternity.jfif"
+            width="300"
+          />
+          <h3>Maternity</h3>
+          <p>Advertising</p>
+          <p>Search Engine Optimization</p>
+          <p>Affiliate Marketing</p>
+          <p>Email Marketing</p>
+          <p>Content</p>
+        </div>
+      </div>
+    </section>
+	
+	
+	.popular-services {
+        padding: 50px;
+        background-color: #fff;
+      }
+      .popular-services h2 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      .popular-services .service-cards {
+        display: flex;
+        justify-content: space-between;
+      }
+      .popular-services .service-card {
+        background-color: #e6f0ef;
+        padding: 20px;
+        border-radius: 10px;
+        border:4px solid #393939;
+        width: 15%;
+        height:250px;
+        text-align: center;
+        box-shadow: 10px 10px 15px #393939;
+      }
+      .service-card:hover
+      {
+        transform: scale(1.03);
+      }
+      .popular-services .service-card img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top:-40%;
+     
+    
+     box-shadow: 0px 10px 15px black;
+      }
+      .popular-services .service-card h3 {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 10px 0;
+      }
+      .popular-services .service-card p {
+        font-size: 14px;
+        margin: 10px 0;
+      }
